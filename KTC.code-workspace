@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "D:/myPracite/KTC"
+	},
+	{
+		"path": "D:/myPracite/HTML-CSS - EvonDev/html-css"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "nhat_tay.github.io"
+  }
+}
