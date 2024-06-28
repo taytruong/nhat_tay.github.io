@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        
+      }
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        height: 100vh;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: blanchedalmond;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      form button[type="submit"] {
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      input {
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      section {
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form>
+          <h1>SIGN IN</h1>
+          <p>New User <a href="./signUpform.html">Sign Up?</a></p>
+          <div>
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+          <div>
+            <input type="password" name="password" placeholder="Password" />
+          </div>
+          <a href="" style="margin-bottom: 10px;">Forgot password</a>
+          <button type="submit">Sign In</button>
+        </form>
+      </section>
+      <footer>
+        &copy;copyright 2024 <a href="">term</a> and <a href="">privacy</a>
+      </footer>
+    </main>
+  </body>
+</html>
